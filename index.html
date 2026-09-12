@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jiménez & Cal. Company</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: #C4C4C4;
+      font-family: "Times New Roman", Times, serif;
+      color: #1a1a1a;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      padding: 60px 20px;
+    }
+
+    .container {
+      background-color: #FAF9F7;
+      width: 100%;
+      max-width: 720px;
+      padding: 60px 80px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.18);
+      display: inline-block;
+    }
+
+    .header {
+      text-align: center;
+    }
+
+    .firm-name {
+      font-size: 1.65rem;
+      font-weight: normal;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      margin-bottom: 14px;
+    }
+
+    .location-line {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+    }
+
+    .location-line hr {
+      flex: 1;
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      max-width: 80px;
+    }
+
+    .location-text {
+      font-size: 0.78rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      white-space: nowrap;
+    }
+
+    .divider {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      margin: 32px 0;
+    }
+
+    .body-text {
+      font-size: 0.95rem;
+      line-height: 1.8;
+      text-align: center;
+    }
+
+    .contact-label {
+      font-size: 0.75rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      margin-bottom: 4px;
+      color: #1a1a1a;
+    }
+
+    .body-text a {
+      color: #1a1a1a;
+      text-decoration: none;
+    }
+
+    .body-text a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1 class="firm-name">Jiménez &amp; Cal. Company</h1>
+      <div class="location-line">
+        <hr>
+        <span class="location-text">Los Angeles, California</span>
+        <hr>
+      </div>
+    </div>
+
+    <hr class="divider">
+
+    <div class="body-text">
+      <p class="contact-label">All Inquiries</p>
+      <p><a href="mailto:jimenezcalcompany@gmail.com">jimenezcalcompany@gmail.com</a></p>
+    </div>
+  </div>
+</body>
+</html>
